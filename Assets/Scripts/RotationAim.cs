@@ -16,7 +16,7 @@ public class RotationAim : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
+     //   mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
     }
 
     void FixedUpdate() {
