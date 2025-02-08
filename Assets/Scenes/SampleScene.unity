@@ -179,7 +179,7 @@ GameObject:
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
   - component: {fileID: 519420033}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -254,12 +254,12 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.25, z: -10}
+  m_LocalPosition: {x: 1.6333411, y: 0.28000095, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -19}
 --- !u!114 &519420033
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -294,6 +294,63 @@ MonoBehaviour:
   m_CameraActivatedEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!1001 &830079637
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4146871769636782258, guid: 3939224f75cceb54cb8a5899a6b3a063, type: 3}
+      propertyPath: m_Name
+      value: mushroom_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4998808314620008236, guid: 3939224f75cceb54cb8a5899a6b3a063, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.7692132
+      objectReference: {fileID: 0}
+    - target: {fileID: 4998808314620008236, guid: 3939224f75cceb54cb8a5899a6b3a063, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0021823049
+      objectReference: {fileID: 0}
+    - target: {fileID: 4998808314620008236, guid: 3939224f75cceb54cb8a5899a6b3a063, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4998808314620008236, guid: 3939224f75cceb54cb8a5899a6b3a063, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.94170564
+      objectReference: {fileID: 0}
+    - target: {fileID: 4998808314620008236, guid: 3939224f75cceb54cb8a5899a6b3a063, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4998808314620008236, guid: 3939224f75cceb54cb8a5899a6b3a063, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4998808314620008236, guid: 3939224f75cceb54cb8a5899a6b3a063, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.33643794
+      objectReference: {fileID: 0}
+    - target: {fileID: 4998808314620008236, guid: 3939224f75cceb54cb8a5899a6b3a063, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4998808314620008236, guid: 3939224f75cceb54cb8a5899a6b3a063, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4998808314620008236, guid: 3939224f75cceb54cb8a5899a6b3a063, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -39.32
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3939224f75cceb54cb8a5899a6b3a063, type: 3}
 --- !u!1 &836491251
 GameObject:
   m_ObjectHideFlags: 0
@@ -391,7 +448,8 @@ GameObject:
   - component: {fileID: 1002142181}
   - component: {fileID: 1002142179}
   - component: {fileID: 1002142184}
-  m_Layer: 0
+  - component: {fileID: 1002142186}
+  m_Layer: 6
   m_Name: Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -406,13 +464,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1002142178}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -423,7 +481,7 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!114 &1002142181
 MonoBehaviour:
@@ -499,7 +557,7 @@ Transform:
   m_GameObject: {fileID: 1002142178}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.79, y: 2.38, z: 0}
+  m_LocalPosition: {x: -2.75, y: 2.38, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -518,6 +576,41 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _speed: 2
+--- !u!70 &1002142186
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1002142178}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.44}
+  m_Size: {x: 0.76, y: 0.26}
+  m_Direction: 1
 --- !u!1 &1264482225
 GameObject:
   m_ObjectHideFlags: 0
@@ -616,7 +709,7 @@ Transform:
   m_GameObject: {fileID: 1379752487}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.25, z: -10}
+  m_LocalPosition: {x: 2.86, y: 0.28, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -655,13 +748,13 @@ GameObject:
   - component: {fileID: 1462672364}
   - component: {fileID: 1462672365}
   - component: {fileID: 1462672366}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: AimPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1462672359
 Transform:
   m_ObjectHideFlags: 0
@@ -835,7 +928,7 @@ GameObject:
   - component: {fileID: 1620617845}
   - component: {fileID: 1483020463}
   - component: {fileID: 1483020464}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1031,6 +1124,7 @@ GameObject:
   - component: {fileID: 1620617846}
   - component: {fileID: 1620617847}
   - component: {fileID: 1620617848}
+  - component: {fileID: 1620617849}
   m_Layer: 0
   m_Name: PlayerInput
   m_TagString: Untagged
@@ -1060,7 +1154,7 @@ PolygonCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1620617844}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -1082,7 +1176,7 @@ PolygonCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -1176,6 +1270,41 @@ MonoBehaviour:
   m_DefaultActionMap: PlayerInput
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!70 &1620617849
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1620617844}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.45}
+  m_Size: {x: 0.58, y: 0.32}
+  m_Direction: 1
 --- !u!1 &1818143859
 GameObject:
   m_ObjectHideFlags: 0
@@ -1268,7 +1397,7 @@ GameObject:
   - component: {fileID: 1835865935}
   - component: {fileID: 1835865936}
   - component: {fileID: 1835865937}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1368,9 +1497,10 @@ GameObject:
   - component: {fileID: 1872043922}
   - component: {fileID: 1872043924}
   - component: {fileID: 1872043925}
-  m_Layer: 0
+  - component: {fileID: 1872043926}
+  m_Layer: 6
   m_Name: MainCharacter
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1436,7 +1566,7 @@ Transform:
   m_GameObject: {fileID: 1872043921}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.25, z: 0}
+  m_LocalPosition: {x: 2.86, y: 0.28, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1469,7 +1599,7 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!114 &1872043925
 MonoBehaviour:
@@ -1490,6 +1620,41 @@ MonoBehaviour:
   movement: {fileID: 0}
   attack: {fileID: 0}
   pointerPosition: {fileID: 0}
+--- !u!70 &1872043926
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1872043921}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.67}
+  m_Size: {x: 0.79, y: 0.41}
+  m_Direction: 1
 --- !u!1 &1943966335
 GameObject:
   m_ObjectHideFlags: 0
@@ -1924,3 +2089,4 @@ SceneRoots:
   - {fileID: 60544371}
   - {fileID: 1379752489}
   - {fileID: 1264482226}
+  - {fileID: 830079637}
