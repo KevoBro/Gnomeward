@@ -1,4 +1,0 @@
-repository "Gnomeward/Gnomeward@2474476638341@cloud"
-  path "/"
-    br "/main"
-    co "/main"
