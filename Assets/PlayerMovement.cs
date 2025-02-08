@@ -8,6 +8,7 @@ public class PlayerMovement : MonoBehaviour
 
     public Rigidbody2D rb; 
     public Camera cam; 
+    public Transform firepoint; 
     Vector2 movement; 
     Vector2 mousePos;
 
