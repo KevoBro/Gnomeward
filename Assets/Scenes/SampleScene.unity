@@ -448,10 +448,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1462672359}
   - component: {fileID: 1462672361}
-  - component: {fileID: 1462672360}
   - component: {fileID: 1462672363}
   - component: {fileID: 1462672362}
   - component: {fileID: 1462672364}
+  - component: {fileID: 1462672365}
   m_Layer: 0
   m_Name: AimPoint
   m_TagString: Untagged
@@ -475,18 +475,6 @@ Transform:
   - {fileID: 1835865935}
   m_Father: {fileID: 1872043923}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1462672360
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1462672358}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b311ee72a9c1b214f9b5140eafb0393c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &1462672361
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -592,10 +580,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6edda03154605924290bc684b52cf271, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
+  moveSpeed: 3
   rb: {fileID: 1462672362}
   cam: {fileID: 519420031}
-  firepoint: {fileID: 0}
+  firepoint: {fileID: 1835865935}
+  dashSpeed: 10
+  dashDuration: 0.25
+  dashCooldown: 4
+  rotationPoint: {fileID: 1462672359}
+  attackOffset: {x: 0, y: 0.8, z: 0}
+  slashPrefab: {fileID: 4154787411160996055, guid: 6db6a82e0fdfb934599788c48fbea2a9, type: 3}
+  characterRb: {fileID: 1462672362}
+--- !u!114 &1462672365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1462672358}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbb2967bffc007846865f65562c12718, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationPoint: {fileID: 1462672359}
+  slashPrefab: {fileID: 4154787411160996055, guid: 6db6a82e0fdfb934599788c48fbea2a9, type: 3}
+  attackOffset: {x: 0, y: 1, z: 0}
+  characterRb: {fileID: 1462672362}
 --- !u!1 &1835865934
 GameObject:
   m_ObjectHideFlags: 0
@@ -806,10 +817,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6edda03154605924290bc684b52cf271, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
+  moveSpeed: 3
   rb: {fileID: 1872043924}
   cam: {fileID: 0}
   firepoint: {fileID: 1462672359}
+  dashSpeed: 10
+  dashDuration: 0.25
+  dashCooldown: 2
+  rotationPoint: {fileID: 0}
+  attackOffset: {x: 0, y: 0, z: 0}
+  slashPrefab: {fileID: 0}
+  characterRb: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
