@@ -39,11 +39,6 @@ public class Player : MonoBehaviour
 
         rb = GetComponent<Rigidbody2D>();
     }
-    void Update()
-    {
-       
-        
-    }
 
     void FixedUpdate() {
         if(isDash) {
