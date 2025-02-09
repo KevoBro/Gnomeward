@@ -1,31 +1,35 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;  // Required for new Input System
 
 public class RotationAim : MonoBehaviour
 {
-    public Rigidbody2D rb; 
-    public Camera cam; 
-    Vector2 mousePos;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public Camera cam;
+    public InputActionReference pointerPosition; // Reference for mouse position input
 
-    // Update is called once per frame
+    private Vector2 mousePos;
+
     void Update()
     {
-     //   mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
+        // Read mouse position from Input System
+        Vector2 screenMousePos = pointerPosition.action.ReadValue<Vector2>();
+
+        // Convert screen position to world position
+        mousePos = cam.ScreenToWorldPoint(screenMousePos);
     }
 
-    void FixedUpdate() {
+    void FixedUpdate()
+    {
+        // Get the parent's position
+        Vector2 parentPos = transform.parent.position;
 
-        Vector2 lookDir = mousePos - rb.position; 
+        // Calculate the direction from the parent to the mouse
+        Vector2 lookDir = mousePos - parentPos;
+
+        // Convert to angle (in degrees)
         float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg - 90f;
 
-        rb.rotation = angle; 
-
-
+        // Apply rotation (affects only the child, not the parent)
+        transform.rotation = Quaternion.Euler(0, 0, angle);
     }
 }
+
