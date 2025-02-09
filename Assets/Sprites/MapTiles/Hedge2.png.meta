@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 74d192975ce375546b2812574cbae363
+guid: d3607699c022e45489e23f176d4dd237
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,286 +110,307 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: hedge256_0
+      name: Hedge2_1
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 240
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18499d170bdd56f4c8435bc939d65113
+      internalID: -2012690302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hedge2_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e36d67488795cb44aae6daeb8ee7579
+      internalID: 1956597405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hedge2_0
       rect:
         serializedVersion: 2
         x: 0
         y: 192
-        width: 64
-        height: 64
+        width: 16
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb92a13fcb3db0f49ae52400b3bd4b8a
-      internalID: 522715140
+      spriteID: bdbdf3558231e0a469a9563d7fbdbd25
+      internalID: 1314120838
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hedge256_1
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 192
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e493d542edb7502438c5ca14abf1123d
-      internalID: -2127882187
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: hedge256_2
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 192
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d2bdcf48282d23046a034d84b47bd681
-      internalID: 1372861470
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: hedge256_3
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 192
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 724114a9b31d1984cba4d87e15d580d4
-      internalID: 357848477
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: hedge256_4
+      name: Hedge2_3
       rect:
         serializedVersion: 2
         x: 0
-        y: 128
-        width: 64
-        height: 64
+        y: 148
+        width: 16
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 63ff88e379337794f92234b51e627ab4
-      internalID: -1302995101
+      spriteID: f7defbc1f27aaa14eb6d5d2964c7fd2b
+      internalID: -2025251365
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hedge256_5
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b2c3dd8d73a4c104ea620583b853cffc
-      internalID: 2099360405
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: hedge256_6
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b81ec612feb01d44fa12ff38fb15c5c4
-      internalID: 388294972
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: hedge256_7
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0fb85dafc309f014bbb7651bcd5890e4
-      internalID: -417234009
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: hedge256_8
+      name: Hedge2_4
       rect:
         serializedVersion: 2
         x: 0
-        y: 64
-        width: 64
-        height: 64
+        y: 75
+        width: 16
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e2b1d89576096114cabf82a67b018131
-      internalID: 1397774122
+      spriteID: eead5d23d0f1ebf4cafc39bea89d8e66
+      internalID: -187460409
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hedge256_9
+      name: Hedge2_5
       rect:
         serializedVersion: 2
-        x: 64
-        y: 64
-        width: 64
-        height: 64
+        x: 148
+        y: 240
+        width: 32
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a108982047d9da49934252e0c50d9b2
-      internalID: -802972144
+      spriteID: 9e5af2c77329ca34d9d1567e681a781d
+      internalID: -1128049315
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hedge256_10
+      name: Hedge2_6
       rect:
         serializedVersion: 2
-        x: 128
-        y: 64
-        width: 64
-        height: 64
+        x: 240
+        y: 224
+        width: 16
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4f988dacadd644849b22d379d6cf46dc
-      internalID: 538728062
+      spriteID: 1a2a29c5182254c41aaa759491799c90
+      internalID: 1091362277
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hedge256_11
+      name: Hedge2_7
       rect:
         serializedVersion: 2
-        x: 192
-        y: 64
-        width: 64
-        height: 64
+        x: 240
+        y: 192
+        width: 16
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 334f8897c5639cd4f99029cefae965b1
-      internalID: 1628524607
+      spriteID: f0b3d149abb975f4c8d1670330d43af9
+      internalID: 1161271354
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hedge256_12
+      name: Hedge2_8
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 240
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 744e345da98e6ab4ba3fafea02fffff4
+      internalID: -545709703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hedge2_9
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 161
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4267616453e8bf479799e9d01442e85
+      internalID: 1154530632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hedge2_10
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 161
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5a41574b93d3864994c0aee21f26794
+      internalID: 689770575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hedge2_11
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 129
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3b1f4221e4ece845a98fb11ef36145d
+      internalID: 1045495586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hedge2_12
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 129
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83a105f678a02bc408b5439f0808d9e7
+      internalID: -1516702546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hedge2_13
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 64
-        height: 64
+        y: 240
+        width: 32
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1862632bf92f1854aa1b3ddcb2c1b3cf
-      internalID: -834701077
+      spriteID: 86ee801f943247044a985058715a4542
+      internalID: 1527928837
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hedge256_13
+      name: Hedge2_14
       rect:
         serializedVersion: 2
-        x: 64
-        y: 0
-        width: 64
-        height: 64
+        x: 186
+        y: 240
+        width: 32
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -397,20 +418,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d5febcfb44599784e9a92da971e01de9
-      internalID: 1946226956
+      spriteID: bcbd03f10230c3447a0982dea90cbecb
+      internalID: -1303820410
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hedge256_14
+      name: Hedge2_15
       rect:
         serializedVersion: 2
-        x: 128
-        y: 0
-        width: 64
-        height: 64
+        x: 35
+        y: 240
+        width: 32
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -418,29 +439,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea751787392857c44a7fe0c396818e45
-      internalID: 60914056
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: hedge256_15
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e771af3a1a9456e41979cdb093660d03
-      internalID: 1450082747
+      spriteID: 0aec37e5971bc68498c51e391142e28a
+      internalID: 2057100398
       vertices: []
       indices: 
       edges: []
@@ -456,22 +456,22 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      hedge256_0: 522715140
-      hedge256_1: -2127882187
-      hedge256_10: 538728062
-      hedge256_11: 1628524607
-      hedge256_12: -834701077
-      hedge256_13: 1946226956
-      hedge256_14: 60914056
-      hedge256_15: 1450082747
-      hedge256_2: 1372861470
-      hedge256_3: 357848477
-      hedge256_4: -1302995101
-      hedge256_5: 2099360405
-      hedge256_6: 388294972
-      hedge256_7: -417234009
-      hedge256_8: 1397774122
-      hedge256_9: -802972144
+      Hedge2_0: 1314120838
+      Hedge2_1: -2012690302
+      Hedge2_10: 689770575
+      Hedge2_11: 1045495586
+      Hedge2_12: -1516702546
+      Hedge2_13: 1527928837
+      Hedge2_14: -1303820410
+      Hedge2_15: 2057100398
+      Hedge2_2: 1956597405
+      Hedge2_3: -2025251365
+      Hedge2_4: -187460409
+      Hedge2_5: -1128049315
+      Hedge2_6: 1091362277
+      Hedge2_7: 1161271354
+      Hedge2_8: -545709703
+      Hedge2_9: 1154530632
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

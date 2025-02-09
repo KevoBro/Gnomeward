@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: hedge256_5
+  m_Name: Hedge3_4
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 2099360405, guid: 74d192975ce375546b2812574cbae363, type: 3}
+  m_Sprite: {fileID: -984824625, guid: 449cb37a26902c6468e4929a9a7bab38, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
